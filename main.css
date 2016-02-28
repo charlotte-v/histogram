@@ -1,10 +1,17 @@
+body {
+  background-color: #e9eaea;
+}
+
 #histogram {
   height: 100%;
 }
 
-
 #histogram div {
-  background-color: black;
+  background-color: #476273;
   width: 10px;
   display: inline-block;
+}
+
+#histogram div:hover {
+  background-color: #34b3a0;
 }
