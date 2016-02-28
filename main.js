@@ -4,7 +4,7 @@ var displayHistogram = function(data, element) {
   var values = data.split(",");
   for (var i = 0; i < values.length; i++) {
     var bar = document.createElement("div");
-    bar.style.width = values[i] + "px";
+    bar.style.height = values[i] + "px";
     element.appendChild(bar);
   }
 
