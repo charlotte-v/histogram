@@ -1,3 +1,8 @@
+#histogram {
+  height: 100%;
+}
+
+
 #histogram div {
   background-color: black;
   width: 10px;
